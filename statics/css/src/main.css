@@ -3,12 +3,14 @@ body, h1, h2, h3, h4, h5, h6, p, {
 }
 
 .titulo{
-  font-size: 105%;
-  color: #FF0000;
+  font-size: 95%;
+  font-weight: bold;
+  color: #FAC971;
 }
 
 h4{
-  padding-top: 0.3em;
+  padding-top: 0.5em;
+  padding-left: 0.2em;
 }
 
 ul{
@@ -28,15 +30,23 @@ ul{
   margin-bottom: 0.5rem;
 }
 
+h3
+{
+  font-family: Century Gothic, Arial, Calibri;
+}
+
 h1 {
   margin-bottom: 1.5em;
 }
 
 a {
   text-decoration: underline;
+  color: #ffffff;
 }
+
 a:hover {
   text-decoration: underline;
+  background-color: #E4F0FF;
 }
 
 body{

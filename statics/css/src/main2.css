@@ -3,12 +3,17 @@ body, h1, h2, h3, h4, h5, h6, p, {
 }
 
 .titulo{
-  font-size: 105%;
-  color: #FF0000;
+  font-size: 90%;
+  font-weight: bold;
+  color: #FAC971;
 }
 
+
+
 h4{
-  padding-top: 0.3em;
+  padding-top: 0.59em;
+  display: inline-block;
+  padding-left: 0.1em;
 }
 
 ul{
@@ -17,7 +22,7 @@ ul{
 }
 
 .padding-top{
-	padding-top: 2em;
+  padding-top: 2em;
 }
 
 .menu-text, p{
@@ -28,18 +33,20 @@ ul{
   margin-bottom: 0.5rem;
 }
 
-h1 {
-  margin-bottom: 1.5em;
+.subti{
+  font-family: Century Gothic, Arial, Calibri;
 }
 
 a {
   text-decoration: underline;
+  color: #ffffff;
 }
+
 a:hover {
   text-decoration: underline;
+  background-color: #E4F0FF;
 }
 
 body{
   text-align: center;
-
 }
