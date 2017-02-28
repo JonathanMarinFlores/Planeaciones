@@ -9,25 +9,32 @@
 	<link rel="stylesheet" href="../statics/css/src/main2.css">
 </head>
 <body>
-	<div class="hide-for-large">
-	<section class="top-bar">
-	  <div class="top-bar-left">
-	    <ul class="dropdown menu expanded" data-dropdown-menu>
-	      <li class="menu-text"> <a href="./index.html">Planeaciones Preescolares</a></li>
-	      <li class="menu-text">
-	        <a href="#">Planeaciones</a>
-	        <ul class="menu vertical">
-	          <li><a href="ejemplos.html">Ejemplos</a></li>
-	          <li><a href="formas.html">Formas de Pago</a></li>
-	          <li><a href="disponibles.html">Planeaciones Disponibles</a></li>
-	          <li><a href="ayuda.html">¿Cómo las descargo?</a></li>
-	        </ul>
-	      </li>
-	      <li class="menu-text"><a href="#">¿Quienes Somos?</a></li>
-	    </ul>
+<div class="hide-for-large">
+	<div class="title-bar">
+	  <div class="title-bar-left">
+	    <span class="title-bar-title">Planeaciones Preescolar</span>
 	  </div>
-	</section>	
+	  <div class="title-bar-right">
+	  <span class="">MENÚ</span>
+	    <button class="menu-icon" type="button" data-open="offCanvasRight"></button>
+	  </div>
 	</div>
+</div>
+
+	<div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+		<button class="close-button" aria-label="Close menu" type="button" data-close>
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<ul class="vertical menu">
+			<li><a href="#">Inicio</a></li>
+			<li><a href="ejemplos.html">Ejemplos</a></li>
+			<li><a href="formas.html">Formas de Pago</a></li>
+			<li><a href="#">Planeaciones Disponibles</a></li>
+			<li><a href="#">¿Cómo las descargo?</a></li>
+			<li><a href="#">¿Quienes Somos?</a></li>
+		</ul>
+	</div>
+
 	
 	<div class="show-for-large">
 		<section class="top-bar">

@@ -1576,7 +1576,7 @@ kbd {
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: #1779ba;
+  background-color: #AD0FA7;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
@@ -3633,7 +3633,7 @@ a.thumbnail {
 
 .title-bar {
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #FA2DF1;
   color: #fefefe; }
   .title-bar::before, .title-bar::after {
     display: table;
@@ -3737,7 +3737,7 @@ a.thumbnail {
     clear: both; }
   .top-bar,
   .top-bar ul {
-    background-color: #71B0FA; }
+    background-color: #FA2DF1; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }

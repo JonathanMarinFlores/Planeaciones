@@ -44,9 +44,10 @@ a {
 
 a:hover {
   text-decoration: underline;
-  background-color: #E4F0FF;
+  background-color: #FFD5FD;
 }
 
 body{
   text-align: center;
+  background-color: #FFD5FD;
 }
