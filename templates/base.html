@@ -7,10 +7,63 @@
 	<title>Planeaciones Educadoras</title>
 	<link rel="stylesheet" href="../statics/css/vendor/foundation.css">
 	<link rel="stylesheet" href="../statics/css/vendor/style.css">
-	<link rel="stylesheet" href="../statics/css/src/main.css">
+	<link rel="stylesheet" href="../statics/css/src/main2.css">
 </head>
 
 <body>
+
+<div class="hide-for-large">
+	<div class="title-bar">
+	  <div class="title-bar-left">
+	    <span class="title-bar-title">Educadora Maravilla</span>
+	  </div>
+	  <div class="title-bar-right">
+	  <span class="">MENÚ</span>
+	    <button class="menu-icon" type="button" data-open="offCanvasRight"></button>
+	  </div>
+	</div>
+</div>
+
+<div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+	<button class="close-button" aria-label="Close menu" type="button" data-close>
+		<span aria-hidden="true">&times;</span>
+	</button>
+	<ul class="vertical menu">
+		<li><a href="#">Inicio</a></li>
+		<li><a href="ejemplos.html">Ejemplos</a></li>
+		<li><a href="formas.html">Formas de Pago</a></li>
+		<li><a href="#">Planeaciones Disponibles</a></li>
+		<li><a href="#">¿Cómo las descargo?</a></li>
+		<li><a href="#">¿Quienes Somos?</a></li>
+	</ul>
+</div>
+	
+<div class="show-for-large">
+	<section class="top-bar">
+	  <div class="top-bar-left">
+	    <ul>
+	      <h4><li class="titulo">Educadora Maravilla</li></h4>
+	    </ul>
+	  </div>
+
+	<div class="top-bar-right">
+    <ul class="menu-text dropdown menu text-centered" data-dropdown-menu>
+          <li><a href="ejemplos.html">Ejemplos</a></li>
+          <li><a href="formas.html">Formas de Pago</a></li>
+          <li><a href="disponibles.html">Planeaciones Disponibles</a>
+          <ul class="menu">
+	          	  <li><a href="#">Maternal</a></li>
+			      <li><a href="#">Preescolar</a></li>
+          </ul>
+          </li>
+          <li><a href="ayuda.html">¿Cómo las descargo?</a></li>
+	      <li><a href="info.html">¿Quienes Somos?</a></li>
+    </ul>
+    </div>
+	</section>
+</div>
+
+
 
 
 	<script src="../statics/js/vendor/jquery.js"></script>
