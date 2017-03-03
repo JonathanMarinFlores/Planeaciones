@@ -1581,7 +1581,7 @@ kbd {
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #14679e;
+    background-color: #FF95FA;
     color: #fefefe; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -3617,7 +3617,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 
 .thumbnail {
   display: inline-block;
-  max-width: 100%;
+  max-width: 50%;
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
