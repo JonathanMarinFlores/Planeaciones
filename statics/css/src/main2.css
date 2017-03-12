@@ -53,3 +53,64 @@ body{
   text-align: center;
   background-color: #FFD5FD;
 }
+
+
+.container {
+  width: 180px;
+  height: 500px;
+
+  margin: auto;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  background-color: #FF2EF6;
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+  margin: 15px;
+  color: #FFD5FD;
+}
+
+.btn:before,
+.btn:after
+{
+transition: .4s ease;
+}
+
+/* btn-7 */
+.btn-7 {
+  z-index: 3;
+  color: #FF2EF6;
+  line-height: 80px;
+  overflow: hidden;
+  transition: .3s;
+  border: 1px solid #1c293a;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.btn-7:before {
+  line-height: 40px;
+  content:   attr(name);
+  color: #FFD5FD;
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -2;
+  transform: translateY(0px);
+}
+
+.btn-7:hover {
+  background-color: #FFD5FD;
+  line-height: 40px;
+}
+
+.btn-7:hover:before {
+   transform: translateY(-40px);
+}
